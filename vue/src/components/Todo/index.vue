@@ -1,4 +1,3 @@
-
 <template>
 	<li class="todo" :class="{completed: todo.completed, editing: todo == editedTodo}">
 		<div class="view">
