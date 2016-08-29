@@ -1,0 +1,3 @@
+[submodule "app-template"]
+	path = app-template
+	url = https://github.com/tastejs/todomvc-app-template
