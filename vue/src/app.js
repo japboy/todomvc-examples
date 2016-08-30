@@ -14,6 +14,10 @@ const init = (ev) => {
 	const App = Vue.extend({
 		components: {TodoList},
 		events: {
+			// Path change event should propagate downward to
+			// TodoList component which is a child of App component
+			// so that TodoList can update its ViewModel when
+			// path is changed.
 			router (prop) {
 				this.$broadcast('router', prop)
 			},

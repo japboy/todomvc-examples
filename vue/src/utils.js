@@ -1,3 +1,4 @@
+// Filter `todos` list into `all`, `active`, or `completed` by each item's state
 export const filters = {
 	all (todos) {
 		return todos
